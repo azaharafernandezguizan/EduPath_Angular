@@ -1,0 +1,103 @@
+@import "../../../styles/colors";
+@import "../../../styles/vars";
+@import "../../../styles/buttons";
+
+
+.users-container{
+    color: $color-white;
+    .title-container {
+      display: flex;
+      align-items: center;
+    }
+
+    h2{
+        margin-left: 5%;
+        color: $color-navyBlue;
+    }
+
+    .listContainer{
+        width:90%;
+        margin:2% auto 5% auto;
+        color: $color-white;
+
+            table{
+                tr{
+                    color: $color-navyBlue;
+                    text-align:center;
+                    min-height: 5vh;
+                    height: 5vh;
+
+                    .actionsColumn{
+                        background-image:none;
+                    }
+
+                    .tdActions{
+                        display:flex;
+                    }
+
+                    .tableButton{
+                        height: 3.5vh;
+                        width: 80%;
+                        margin-left: 0.5vw;
+                        margin-right: 0.5vw;
+                    }
+                }
+
+            }
+    }
+}
+
+
+.buttonsDiv{
+  display:flex;
+}
+
+
+@media screen and (max-device-width: 1024px){
+    .users-container{
+        width: 100%;
+        overflow-x: scroll;
+
+        .listContainer{
+            width:90%;
+            margin:auto;
+            color: $color-white;
+
+                table{
+                    tr{
+                        .tableButton{
+                            width: 10vw;
+                            height:5vh;
+                            margin-left:0.5vw;
+                        }
+                    }
+                }
+        }
+    }
+}
+
+@media screen and (max-device-width: 768px){
+    .users-container{
+        width: 100%;
+        overflow: scroll;
+        height: 80vh;
+
+        .listContainer{
+            width:80%;
+            margin:auto;
+            color: $color-white;
+
+                table{
+                    tr{
+                        .tableButton{
+                            width: 15vw;
+                            height:5vh;
+                            margin-left:0.5vw;
+                        }
+                    }
+                }
+        }
+    }
+}
+
+

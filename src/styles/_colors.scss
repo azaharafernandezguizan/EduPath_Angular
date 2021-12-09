@@ -1,0 +1,34 @@
+/* General */
+$color-white:#FFFFFF;
+$color-almostWhite: #FFFFFF61;
+$color-almostWhite2: #FFFFFF80;
+
+$color-darkBlue:hsl(233, 100%, 12%);
+$color-vibrantDarkBlue:#000E5A;
+$color-blueBlack: #00032D;
+$color-navyBlue: #1E2450;
+
+$color-mediumBlue:#005EC7;
+$color-vibrantBlue: #258AFB;
+
+$color-lightBlue: #80AFE3;
+$color-vibrantLightBlue: #71B9FF;
+$color-extraLightBlue: #afdcfa;
+
+$color-gray:#707070;
+$color-lightGray:#BFBFBF;
+$color-extraLightGray: #00000033;
+$color-grayWhite:#C1BDBD80;
+
+$color-black: #000000;
+$color-almostBlack:#121212;
+
+$color-darkRed: #B00020;
+$color-lightRed: #ff6666;
+
+
+/* Background */
+$color-background-blueGradient: transparent radial-gradient(closest-side at 50% 50%, #000E5A 0%, #00032D 100%) 0% 0% no-repeat padding-box;
+
+/* Errors and validations */
+$color-error: #f53d3d;

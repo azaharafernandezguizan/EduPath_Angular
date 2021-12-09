@@ -1,0 +1,54 @@
+@import '_colors.scss';
+
+/* Fonts */
+$general-font: Helvetica,
+sans-serif;
+
+/* Margins */
+
+
+/* Paddings */
+
+
+/* Borders */
+$decorative-line-border: 1px solid $color-vibrantBlue;
+$border-loader: 3px solid transparent;
+
+/* Inputs */
+$border-input: 1px solid $color-vibrantBlue;
+$padding-input: 0.2em;
+$margin-input: 0 0.5em 0 0.5em;
+
+/* Containers */
+$margin-left-general-container: 20%;
+$general-containers-margin: 1% 20% 1% $color-vibrantBlue;
+$thin-containers-margin: 1% 5% 1% 5%;
+$margin-left-back-arrow: 14%;
+
+/* Box */
+$color-vibrantBlue-input: $color-white;
+$color-box-shadow: rgba(0, 0, 0, 0.2);
+$color-box-shadow-light: #CCCCCC;
+$BoxBorders: 0.15em solid $color-vibrantBlue;
+$BoxBorderRadius: 0.40em;
+$BoxPadding: 1em;
+$BoxMargin: 1.5%;
+$BoxMargin-medium: 1%;
+$BoxMargin-small: 0.5%;
+
+// Shadows
+$box-shadow-sm : 0 1px 3px 0 rgba(58, 59, 69, .08) !default;
+$box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16) !default;
+
+/* Buttons */
+$color-back-ground-button: $color-white;
+$ButtonBorders: 2px solid $color-vibrantBlue;
+$Button-box-shadow-general: 2px 2px 2px 0 rgba(117, 54, 54, 0.2);
+$Button-box-shadow: 2px 2px 2px 0 rgba(117, 54, 54, 0.2);
+
+/* loader */
+$color-back-ground-loader: rgba(0, 0, 0, 0.7); // rgba(255,255,255, 0.5);
+$animation-loader: spin 2s linear infinite;
+$animationBefore-loader:spin 3s linear infinite;
+$animationAfter-loader:spin 1.5s linear infinite;
+$border-loader: 3px solid transparent;

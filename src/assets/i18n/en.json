@@ -1,0 +1,57 @@
+{
+    "dummies":{
+        "noDummies": "No data to display",
+        "title": "Employees list",
+        "id": "ID",
+        "name": "Name",
+        "salary": "Salary",
+        "age": "Age",
+        "createNew": "New",
+        "viewDetail": "Detail",
+        "delete": "Delete",
+        "processing": "Processing...",
+        "lengthMenu": "Show _MENU_ registers",
+        "zeroRecords": "Results not found",
+        "emptyTable": "No data available on this table",
+        "tableInfo": "Displaying results from _START_ to _END_ of a total of _TOTAL_ registers",
+        "tableInfoEmpty": "Displaying registers from 0 to 0 of a total of 0 registers",
+        "tableInfoFiltered": "(filtering of a total of _MAX_ register)",
+        "tableInfoPostFix": "",
+        "search": "Search",
+        "url": "",
+        "thousands": ".",
+        "loadingRecords": "Loading...",
+        "decimal": "decimal",
+        "searchPlaceholder": "",
+        "first": "First",
+        "last": "Last",
+        "next": "Next",
+        "previous": "Previous",
+        "sortAscending": ": Activate to sort the column on an ascending way",
+        "sortDescending": ": Activate to sort the column on a descending way",
+        "adult": "Adult",
+        "junior": "Junior",
+        "retired": "Retired"
+    },
+    "detail":{
+        "isOKResponse": "Change done!",
+        "isKOResponse": "An error arisen, and the change was not done!",
+        "title": "Employee detail",
+        "id": "ID",
+        "name": "Name",
+        "age": "Age",
+        "salary": "Salary",
+        "update": "Update data",
+        "cancelUpdate": "Revert changes",
+        "validations":{
+            "name_required": "The name field is required",
+            "name_max_length": "The name field has a maximum length of 255 characters",
+            "salary_required": "The salary field is required",
+            "age_required": "The age field is required"
+        }
+    },
+    "welcome":{
+        "title": "Welcome to Edu Path"
+    }
+    
+}

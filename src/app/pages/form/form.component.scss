@@ -1,0 +1,26 @@
+@import "../../../styles/colors";
+@import "../../../styles/vars";
+@import "../../../styles/buttons";
+
+.dummieDetail_title{
+    color: $color-navyBlue;
+}
+
+form{
+    border: 1px solid $color-navyBlue;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.data_div{
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .firstSpan{
+        width:15%;
+        font-weight: bold;
+    }
+}

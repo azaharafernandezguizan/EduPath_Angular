@@ -1,0 +1,56 @@
+{
+    "dummies":{
+        "noDummies": "No hay datos",
+        "title": "Listado de empleados",
+        "id": "ID",
+        "name": "Nombre",
+        "salary": "Salario",
+        "age": "Edad",
+        "createNew": "Nuevo",
+        "viewDetail": "Detalle",
+        "delete": "Eliminar",
+        "processing": "Procesando...",
+        "lengthMenu": "Mostrar _MENU_ registros",
+        "zeroRecords": "No se encontraron resultados",
+        "emptyTable": "Ningún dato disponible en esta tabla",
+        "tableInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+        "tableInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+        "tableInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+        "tableInfoPostFix": "",
+        "search": "Buscar",
+        "url": "",
+        "thousands": ",",
+        "loadingRecords": "Cargando...",
+        "decimal": "decimal",
+        "searchPlaceholder": "",
+        "first": "Primero",
+        "last": "Último",
+        "next": "Siguiente",
+        "previous": "Anterior",
+        "sortAscending": ": Activar para ordenar la columna de manera ascendente",
+        "sortDescending": ": Activar para ordenar la columna de manera descendente",
+        "adult": "Mayor de edad",
+        "junior": "Menor de edad",
+        "retired": "Retirado"
+    },
+    "detail":{
+        "isOKResponse": "¡Cambio realizado!",
+        "isKOResponse": "No se ha podido realizar el cambio",
+        "title": "Detalle de empleado",
+        "id": "ID",
+        "name": "Nombre",
+        "age": "Edad",
+        "salary": "Salario",
+        "update": "Guardar datos",
+        "cancelUpdate": "Eliminar cambios",
+        "validations":{
+            "name_required": "El campo nombre es obligatorio",
+            "name_max_length": "El campo nombre debe tener una longitud máxima de 255",
+            "salary_required": "El campo salario es obligatorio",
+            "age_required": "El campo edad es obligatorio"
+        }
+    },
+    "welcome":{
+        "title": "Bienvenide a Edu Path"
+    }
+}

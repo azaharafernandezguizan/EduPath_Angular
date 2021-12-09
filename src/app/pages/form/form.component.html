@@ -1,0 +1,67 @@
+<div *ngIf="!isChangeSend">
+    <div class="dummieDetail_title">
+        <h2>{{'detail.title' | translate}}</h2>
+    </div>
+  
+    <form [formGroup]="detailFormGroup" id="detailForm"
+          class ="detail_div">
+      <div class="data_div">
+        <span class="firstSpan">{{ 'detail.id' | translate }}</span>
+        <span>{{dummy?.id}}</span>
+      </div>
+      <div class="data_div">
+          <span class="firstSpan">{{ 'detail.name' | translate }}</span>
+          <div class="inputWithValidations">
+              <input id="idNameForm" type="text" formControlName="name" (change)="onFormChange()"/>
+              <div *ngIf="name.invalid && (name.dirty || name.touched)" class="inputValidationContainer">
+                  <div *ngIf="name.errors.required" class="inputValidation">
+                      {{'detail.validations.name_required' | translate}}
+                  </div>
+                  <div *ngIf="name.errors.maxlength" class="inputValidation">
+                      {{'detail.validations.name_max_length' | translate}}
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="data_div">
+        <span class="firstSpan">{{ 'detail.age' | translate }}</span>
+        <div class="inputWithValidations">
+            <input id="idAgeForm" type="number" formControlName="age" (change)="onFormChange()"/>
+            <div *ngIf="age.invalid && (age.dirty || age.touched)" class="inputValidationContainer">
+                <div *ngIf="age.errors.required" class="inputValidation">
+                    {{'detail.validations.age_required' | translate}}
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="data_div">
+        <span class="firstSpan">{{ 'detail.salary' | translate }}</span>
+        <div class="inputWithValidations">
+            <input id="idSalaryForm" type="number" formControlName="salary" (change)="onFormChange()"/>
+            <div *ngIf="salary.invalid && (salary.dirty || salary.touched)" class="inputValidationContainer">
+                <div *ngIf="salary.errors.required" class="inputValidation">
+                    {{'detail.validations.salary_required' | translate}}
+                </div>
+            </div>
+        </div>
+      </div>
+     
+      <div class="data_div">
+        <button class="button button-blue" id="submitButton" (click)="onDataSubmit()" [disabled]="isButtonFormDisabled()">
+            {{'detail.update' | translate}}
+        </button>
+      </div>
+      <div class="data_div">
+          <button class="button button-white" (click)="cancelUpdate()">
+            {{'detail.cancelUpdate' | translate }}</button>
+      </div>
+    </form>
+  
+</div>
+<div *ngIf="isOKResponse && isChangeSend">
+    <p>{{'detail.isOKResponse' | translate}}</p>
+</div> 
+
+<div *ngIf="!isOKResponse && isChangeSend">
+    <p>{{'detail.isKOResponse' | translate}}</p>
+</div> 

@@ -1,0 +1,36 @@
+@import "../../../styles/colors";
+@import "../../../styles/vars";
+@import "../../../styles/buttons";
+
+.navigationDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .logoImg{
+        width:5vw;
+        margin:2vh 2vw;
+    }
+}
+
+
+
+@media screen and (max-device-width: 1024px){
+    .navigationDiv{
+
+        .logoImg{
+            width:7vw;
+        }
+
+    }
+}
+
+
+@media screen and (max-device-width: 768px){
+    .navigationDiv{
+        .logoImg{
+            width:10vw;
+        }
+    }
+}
+
